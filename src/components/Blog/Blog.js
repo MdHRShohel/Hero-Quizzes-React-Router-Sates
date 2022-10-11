@@ -2,55 +2,33 @@ import React from 'react';
 
 const Blog = () => {
     return (
-
-<section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
-              <div class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="blog"/>
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
-                  <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                  <div class="flex items-center flex-wrap ">
-                    <button class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Learn more</button>
-                   
-                  </div>
-                </div>
-              </div>
+        <div className='text-white grid lg:grid-cols-3 sm:grid-cols-1 gap-4 px-4 mt-4'>
+            <div className='border-4 border-blue-400 rounded-xl shadow-2xl shadow-neutral-900 p-4'>
+              <h1 className='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl mb-4'>What is the purpose of the React Router?</h1>
+              <p>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+              Let us create a simple application to React to understand how the React Router works. The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components.
+                <br />
+              Setting up the React Application: Create a React application using create-react-app and lets call it geeks.
+              </p>
             </div>
-            <div class="p-4 md:w-1/3">
-                <div class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="blog"/>
-                  <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <div class="flex items-center flex-wrap ">
-                      <button class="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg">Learn more</button>
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="p-4 md:w-1/3">
-                <div class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="blog"/>
-                  <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <div class="flex items-center flex-wrap ">
-                      <button class="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105  shadow-cla-blue px-4 py-1 rounded-lg">Learn more</button>
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
+            <div className='border-4 border-blue-400 rounded-xl shadow-2xl shadow-neutral-900 p-4'>
+            <h1 className='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl mb-4'>How does context API works?</h1>
+              <p>Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+                <br />
+              React.createContext() is all you need. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state. More information can be found on React's documentation page.
+              </p>
+            </div>
+            <div className='border-4 border-blue-400 rounded-xl shadow-2xl shadow-neutral-900 p-4'>
+            <h1 className='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl mb-4'>
+              What is useRef hook in React? How does useRef React work?
+              </h1>
+              <p>
+              The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+              <br />
+              useRef returns a mutable ref object whose .current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property.
+              </p>
+            </div>
         </div>
-      </section>
     );
 };
 
