@@ -9,8 +9,13 @@
    * By Clicking the Start Quiz Button the page wil go to new page where you will find the Multiple choice Questions.
 
 * Statistics Button
-    *If you click in the Statistics Button you will find a Chart which will show the Number of Questions in the Quizzes.
+    * If you click in the Statistics Button you will find a Chart which will show the Number of Questions in the Quizzes.
+    * You can also show the Name and number of Total questions by hovering the Mouse.
 
+* Blog Button
+    * In the Blog button you will find some Questions and Answer about React Router, Context API, and useRef etc.
+* The Website is fully responsive.
+#Thats is in this website.
 
 
 
