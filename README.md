@@ -8,6 +8,8 @@
    * I also added 4 Quiz card which is form API.
    * By Clicking the Start Quiz Button the page wil go to new page where you will find the Multiple choice Questions.
 
+* Statistics Button
+    *If you click in the Statistics Button you will find a Chart which will show the Number of Questions in the Quizzes.
 
 
 
