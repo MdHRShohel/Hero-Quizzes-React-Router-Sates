@@ -8,7 +8,7 @@ const Quiz = ({quiz}) => {
         <div className='m-12 border border-blue-600'>
             <h2 className="
             font-bold mx-auto mt-8 max-w-xl sm:text-xl sm:leading-relaxed m-8 "
-            >Question : {question}</h2>
+            >Question No {}: {question}</h2>
 
         <div className=' 
         grid lg:grid-cols-2 sm:grid-cols-1 m-16 font-semibold
