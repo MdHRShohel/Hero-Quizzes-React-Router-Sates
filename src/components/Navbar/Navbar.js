@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="bg-gray-900 text-white px-20 py-5 border-b-2 border-blue-500">
             <nav className=' flex justify-between items-center'>
                 <div>
-                    <h2 className="bg-gradient-to-r from-purple-500 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-3xl">HERO QUIZES</h2>
+                    <h2 className="bg-gradient-to-r from-purple-500 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-3xl">HERO QUIZZES</h2>
                 </div>
                 <div className='flex gap-3'>
 
