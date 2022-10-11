@@ -2,6 +2,19 @@
 
 ## Live Website Link is [Hero-Quizzes](https://hero-quizzes.netlify.app/).
 
+<!-- Makes a bullet point list -->
+* Home Button
+   * In the Home Button I have added a Awesome Banner.
+   * I also added 4 Quiz card which is form API.
+   * By Clicking the Start Quiz Button the page wil go to new page where you will find the Multiple choice Questions.
+
+
+
+
+
+
+
+
 
 ## Getting Started with Create React App
 
