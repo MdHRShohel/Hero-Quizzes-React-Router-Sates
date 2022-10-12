@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Option from '../Option/Option';
 import { EyeIcon } from '@heroicons/react/24/solid'
@@ -7,25 +6,19 @@ import { EyeIcon } from '@heroicons/react/24/solid'
 const Quiz = ({quiz}) => {
     const {id,question, options,correctAnswer} = quiz;
 
-    const [correct, setCorrect] = useState([]);
-
-
         const handleSelect = option => {
 
             if (option === correctAnswer) {
-                toast('WoW!!! Correct Answer', { position: toast.POSITION.TOP_CENTER });
-                const newCorrect = [...correct, option];
-                setCorrect(newCorrect);
-
+                toast.success('WoW!!! Correct Answer', { position: toast.POSITION.TOP_CENTER, autoClose: 1000});
             }
             else {
-                toast('Incorrect Answer!!!', { position: toast.POSITION.TOP_CENTER })
+                toast.error('Incorrect Answer!!!', { position: toast.POSITION.TOP_CENTER, autoClose: 1000});
             }
 
         }
 
         const handleCorrAns = () => {
-            toast(`Correct Answer is ${correctAnswer}`, { position: toast.POSITION.TOP_CENTER })
+            toast(`Correct Answer is ${correctAnswer}`, { position: toast.POSITION.TOP_CENTER, autoClose: 3000})
         };
     //console.log(quiz);
     return (
@@ -40,7 +33,6 @@ const Quiz = ({quiz}) => {
             id={id}
             handleSelect={handleSelect}
             option={option}></Option>)}
-            <ToastContainer></ToastContainer>
          </div>
         <EyeIcon onClick={()=>handleCorrAns()} className="absolute top-4 right-4 h-6 w-6 text-white"/>
         </div>
