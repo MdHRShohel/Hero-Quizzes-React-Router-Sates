@@ -1,6 +1,6 @@
 # Project Name is Hero Quizzes
 
-## Live Website Link is [Hero-Quizzes](https://hero-quizzes.netlify.app/).
+## Live Website Link is [Hero-Quizzes](https://coder-bot.web.app/).
 
 <!-- Makes a bullet point list -->
 * Topic Button
